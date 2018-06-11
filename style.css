@@ -83,7 +83,7 @@ header a:hover{
 
 #showcase{
 	min-height: 400px;
-	background: url('./img/showcase.jpeg') no-repeat 0 -400px;
+	background: url('./img/showcase.jpeg') no-repeat -100px -400px;
 	text-align: center;
 	color:#ffffff;
 }
@@ -98,6 +98,8 @@ header a:hover{
 	font-size: 20px;
 }
 
+
+/*----------------newsletter----------*/
 #newsletter{
 	padding: 15px;
 	color: #ffffff;
@@ -119,8 +121,30 @@ header a:hover{
 	width: 250px;
 }
 
-img {
-	height: 80px;
+/*-----------Boxes------------*/
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	height:90px;
 	width: auto;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color:#e8491d;
+	text-align: center;
+}
 
 }
